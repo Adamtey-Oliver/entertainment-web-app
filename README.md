@@ -1,3 +1,11 @@
+# End Points
+
+Endpoints:
+http://localhost:3000/
+
+http://localhost:3000/users
+http://localhost:3000/movies
+
 # EntertainmentWebApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
