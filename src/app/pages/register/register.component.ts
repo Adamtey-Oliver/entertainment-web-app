@@ -2,9 +2,9 @@ import {Component, ViewEncapsulation} from "@angular/core";
 import {Router, RouterLink} from "@angular/router";
 import {FormBuilder, Validators, ReactiveFormsModule} from "@angular/forms";
 import {NgIf} from "@angular/common";
-import {passwordMatchValidator} from "../../shared/password-match";
-import {MovieServiceService} from "../../services/movie-service.service";
-import {Auth} from "../../interface/auth";
+import {passwordMatchValidator} from "@app/shared/password-match";
+import {MovieServiceService} from "@app/services/movie-service.service";
+import {Auth} from "@app/interface/auth";
 import {ToastrService} from "ngx-toastr";
 
 @Component({
