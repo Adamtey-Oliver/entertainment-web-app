@@ -1,10 +1,10 @@
 import {Component, inject} from '@angular/core';
-import { MovieContentsComponent } from '../../components/movie-contents/movie-contents.component';
+import { MovieContentsComponent } from '@app/components/movie-contents/movie-contents.component';
 import {NgForOf, NgIf} from "@angular/common";
-import { SideBarComponent } from '../../components/side-bar/side-bar.component';
-import {TrendingComponent} from "../../components/trending/trending.component";
-import {MoviesInterface} from "../../interface/movies-interface";
-import {MovieServiceService} from "../../services/movie-service.service";
+import { SideBarComponent } from '@app/components/side-bar/side-bar.component';
+import {TrendingComponent} from "@app/components/trending/trending.component";
+import {MoviesInterface} from "@app/interface/movies-interface";
+import {MovieServiceService} from "@app/services/movie-service.service";
 import {FormsModule} from "@angular/forms";
 
 @Component({
