@@ -1,7 +1,7 @@
 import {Component, inject, Input} from '@angular/core';
-import {MoviesInterface} from "../../interface/movies-interface";
+import {MoviesInterface} from "@app/interface/movies-interface";
 import {NgIf, NgOptimizedImage} from "@angular/common";
-import {MovieServiceService} from "../../services/movie-service.service";
+import {MovieServiceService} from "@app/services/movie-service.service";
 import {ToastrService} from "ngx-toastr";
 
 @Component({
