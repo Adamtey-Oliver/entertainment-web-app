@@ -1,7 +1,7 @@
 import {Component, Input} from '@angular/core';
 import { CarouselModule } from 'primeng/carousel';
 import { CardModule } from 'primeng/card';
-import {MoviesInterface} from "../../interface/movies-interface";
+import {MoviesInterface} from "@app/interface/movies-interface";
 import {NgOptimizedImage} from "@angular/common";
 @Component({
   selector: 'app-trending',
