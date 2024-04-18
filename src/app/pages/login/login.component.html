@@ -14,7 +14,7 @@
         }
         <div class="my-10 w-full relative ">
           <input type="email" formControlName="email"
-                 class="bg-transparent border-b border-b-gray-600 font-extralight text-sm  focus:ring-blue-500 focus:border-white0 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-white hover:border-white outline-0 active:border-none"
+                 class="bg-transparent border-b border-b-gray-600 font-extralight text-sm  focus:ring-blue-500 focus:border-white0 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-white hover:border-white outline-0 active:border-none"
                  placeholder="Email address">
           <small  *ngIf=" email.invalid && (email.dirty || email.touched)" class="text-red-800 absolute end-2.5 bottom-2.5">
             <div *ngIf="email.errors?.['required']">can't be empty</div>
@@ -23,7 +23,7 @@
         </div>
         <div class="my-10 w-full relative">
           <input type="password" formControlName="password"
-                 class="bg-transparent border-b border-b-gray-600 font-extralight text-sm  focus:ring-blue-500 focus:border-white block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-dark:focus:border-white hover:border-white outline-0 active:border-none"
+                 class="bg-transparent border-b border-b-gray-600 font-extralight text-sm  focus:ring-blue-500 focus:border-white block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-dark:focus:border-white hover:border-white outline-0 active:border-none"
                  placeholder="Password">
           <small *ngIf="password.invalid && (password.dirty||password.touched)" class="text-red-800 absolute end-2.5 bottom-2.5">
             <div *ngIf="password.errors?.['required']">can't be empty</div>
@@ -34,7 +34,7 @@
                   class="bg-red-btn w-full rounded font-extralight text-xs py-4 px-4 hover:bg-white hover:text-black lg:py-2">
             Login to your account
           </button>
-          <p class="text-center my-6 text-md font-extralight">Don't have account <a routerLink="/register" class="text-red-btn mx-1"> sign Up</a>
+          <p class="text-center my-6 text-md font-extralight">Don't have account <a routerLink="/register" class="text-red-btn mx-1"> Sign Up</a>
           </p>
         </div>
       </form>
