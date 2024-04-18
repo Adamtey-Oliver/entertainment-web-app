@@ -2,10 +2,10 @@ import { Component,  } from '@angular/core';
 import {RouterLink} from "@angular/router";
 import {FormBuilder, Validators, ReactiveFormsModule} from "@angular/forms";
 import {NgIf} from "@angular/common";
-import{MovieServiceService} from "../../services/movie-service.service";
+import{MovieServiceService} from "@app/services/movie-service.service";
 import {Router} from'@angular/router'
 import {ToastrService} from "ngx-toastr";
-import { PageLoaderComponent } from '../../components/page-loader/page-loader.component';
+import { PageLoaderComponent } from '@app/components/page-loader/page-loader.component';
 @Component({
   selector: 'app-login',
   standalone: true,
