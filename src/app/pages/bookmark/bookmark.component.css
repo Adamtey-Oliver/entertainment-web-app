@@ -1,3 +1,11 @@
+/* Target the input when autofilled */
+.none-bg input:-webkit-autofill {
+    /* Add your custom styles here */
+    /* For example, set the background color to transparent */
+    background-color: transparent;
+  }
+  
+
 @media screen and (max-width: 450px) {
     .mobile-view{
         padding: 0 10px;
