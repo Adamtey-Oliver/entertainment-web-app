@@ -1,4 +1,4 @@
-import { Component, inject, OnInit, SimpleChanges,OnChanges } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { SideBarComponent } from "@app/components/side-bar/side-bar.component";
 import { MoviesInterface } from "@app/interface/movies-interface";
 import { MovieServiceService } from "@app/services/movie-service.service";
