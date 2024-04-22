@@ -14,6 +14,9 @@ import { PageLoaderComponent } from '@app/components/page-loader/page-loader.com
   styleUrl: './login.component.css',
 })
 export class LoginComponent {
+togglePasswordVisibility() {
+throw new Error('Method not implemented.');
+}
   isLoading = false
   loginForm = this.fb.group({
     email: ["", [Validators.required, Validators.email]],
