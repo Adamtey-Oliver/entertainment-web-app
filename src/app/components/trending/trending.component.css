@@ -15,5 +15,17 @@ section{
     height:200px
   }
   
-  
-  
+  @media screen and (max-width: 450px) {
+    section{
+      width:350px;
+      height: 220px;
+    }
+    img{
+      width: 180%;
+      height:auto;
+      object-fit: cover;
+    }
+    .imageCover{
+      height:180px
+    }
+}

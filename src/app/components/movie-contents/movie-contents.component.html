@@ -33,7 +33,7 @@
     </div>
   </div>
   <div class="flex items-center opacity-60 w-90% justify-content-between my-1 text-sm font-extralight">
-    <div class="mx-1  ">{{ movieList.year }}</div>
+    <div class="fontsize mx-1 ">{{ movieList.year }}</div>
     <span style="margin: 2px; color: #979797;">•</span>
     <div *ngIf="movieList.category ==='TV Series'" class="mx-1">
       <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,9 +49,9 @@
               fill="white"/>
       </svg>
     </div>
-    <div class="mx-1"> {{ movieList.category }}</div>
+    <div class="fontsize mx-1"> {{ movieList.category }}</div>
     <span style="margin: 2px; color: #979797;">•</span>
-    <div class="mx-1"> {{ movieList.rating }}</div>
+    <div class=" fontsize mx-1"> {{ movieList.rating }}</div>
   </div>
   <h3>{{ movieList.title }}</h3>
 </section>

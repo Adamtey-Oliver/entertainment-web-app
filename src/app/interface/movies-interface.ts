@@ -1,4 +1,5 @@
 export interface MoviesInterface {
+    length: number;
     title: string;
     thumbnail:  {
       trending: {
