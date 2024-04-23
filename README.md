@@ -1,6 +1,6 @@
 # End Points
-
-Endpoints:
+Online: https://entertainmentdata.onrender.com/
+Offline Endpoints:
 http://localhost:3000/
 
 http://localhost:3000/users
