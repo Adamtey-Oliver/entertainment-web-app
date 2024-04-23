@@ -38,7 +38,7 @@
       "year": 2019,
       "category": "Movie",
       "rating": "PG",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": true,
       "id": "b7fc"
     },
@@ -58,27 +58,27 @@
       "year": 2021,
       "category": "Movie",
       "rating": "PG",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": true,
       "id": "3355"
     },
     {
-      "title": "Undiscovered Cities",
+      "title": "1998",
       "thumbnail": {
         "trending": {
-          "small": "./assets/thumbnails/undiscovered-cities/trending/small.jpg",
-          "large": "./assets/thumbnails/undiscovered-cities/trending/large.jpg"
+          "small": "./assets/thumbnails/1998/trending/small.jpg",
+          "large": "./assets/thumbnails/1998/trending/large.jpg"
         },
         "regular": {
-          "small": "./assets/thumbnails/undiscovered-cities/regular/small.jpg",
-          "medium": "./assets/thumbnails/undiscovered-cities/regular/medium.jpg",
-          "large": "./assets/thumbnails/undiscovered-cities/regular/large.jpg"
+          "small": "./assets/thumbnails/1998/regular/small.jpg",
+          "medium": "./assets/thumbnails/1998/regular/medium.jpg",
+          "large": "./assets/thumbnails/1998/regular/large.jpg"
         }
       },
-      "year": 2019,
-      "category": "TV Series",
-      "rating": "E",
-      "isBookmarked": true,
+      "year": 2021,
+      "category": "Movie",
+      "rating": "18+",
+      "isBookmarked": false,
       "isTrending": true,
       "id": "8e08"
     },
@@ -118,7 +118,7 @@
       "year": 2018,
       "category": "TV Series",
       "rating": "PG",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": true,
       "id": "2380"
     },
@@ -150,7 +150,7 @@
       "year": 2019,
       "category": "TV Series",
       "rating": "PG",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "3a58"
     },
@@ -166,7 +166,7 @@
       "year": 2017,
       "category": "Movie",
       "rating": "18+",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "980a"
     },
@@ -182,7 +182,7 @@
       "year": 2019,
       "category": "Movie",
       "rating": "E",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "eb84"
     },
@@ -198,7 +198,7 @@
       "year": 2016,
       "category": "TV Series",
       "rating": "PG",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "08c8"
     },
@@ -230,7 +230,7 @@
       "year": 2017,
       "category": "Movie",
       "rating": "E",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "bd35"
     },
@@ -246,7 +246,7 @@
       "year": 2016,
       "category": "TV Series",
       "rating": "PG",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "2583"
     },
@@ -262,7 +262,7 @@
       "year": 2015,
       "category": "TV Series",
       "rating": "E",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "13cd"
     },
@@ -390,7 +390,7 @@
       "year": 2017,
       "category": "Movie",
       "rating": "E",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "3797"
     },
