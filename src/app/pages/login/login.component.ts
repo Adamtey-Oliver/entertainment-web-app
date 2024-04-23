@@ -34,7 +34,7 @@ throw new Error('Method not implemented.');
    const{ email,password} = this.loginForm.value;
     setTimeout(()=>{
       this.isLoading = false
-    }, 40000)
+    }, 50000)
    this.authService.getUserByEmail(email as string).subscribe(
      response =>{
        if (response.length > 0 && response[0].password === password){
