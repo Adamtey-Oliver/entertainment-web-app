@@ -23,7 +23,6 @@ import { FormsModule } from "@angular/forms";
 export class BookmarkComponent implements OnInit {
   BookmarkedMovieList: MoviesInterface[] = [];
   BookmarkedSeriesList: MoviesInterface[] = [];
-  BookmarkList: MoviesInterface[] = [];
   userSearch: any;
 
   constructor(private rs: MovieServiceService) {}
