@@ -1,4 +1,4 @@
-import {Component, inject, Input} from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {MoviesInterface} from "@app/interface/movies-interface";
 import {NgIf, NgOptimizedImage} from "@angular/common";
 import {MovieServiceService} from "@app/services/movie-service.service";
