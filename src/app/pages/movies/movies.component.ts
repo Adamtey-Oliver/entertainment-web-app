@@ -11,7 +11,6 @@ import {FormsModule} from "@angular/forms";
   selector: 'app-movies',
   standalone: true,
   imports: [
-    MoviesComponent,
     NgForOf,
     SideBarComponent,
     TrendingComponent,
